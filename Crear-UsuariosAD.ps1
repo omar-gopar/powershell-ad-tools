@@ -18,7 +18,7 @@
     Ruta del Excel de resultados que se generará.
 
 .PARAMETER DominioUPN
-    Dominio para el UPN. Ej: infocdmx.org.mx
+    Dominio para el UPN. Ej: empresa.dominio.com
 
 .PARAMETER LogPath
     Carpeta donde se guardará el log. Por defecto: directorio del script.
