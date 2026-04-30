@@ -260,7 +260,7 @@ try {
 } catch {
     Write-Host "  ⚠️  No se pudo autodetectar el dominio: $_" -ForegroundColor Yellow
     Write-Log "No se pudo autodetectar el dominio: $_" -L WARN
-    $DomainDN = Read-Host "  🏢 DN raíz del dominio (ej: DC=INFO-DF,DC=ORG,DC=MX)"
+    $DomainDN = Read-Host "  🏢 DN raíz del dominio (ej: DC=EMPRESA,DC=DOMINIO,DC=COM)"
     Write-Log "DN ingresado manualmente: $DomainDN" -L INFO
 }
 
