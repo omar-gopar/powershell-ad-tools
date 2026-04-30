@@ -191,7 +191,7 @@ if (-not $ExcelSalida) {
     $ExcelSalida = Read-Host "  💾 Ruta del Excel de resultados (salida)"
 }
 if (-not $DominioUPN) {
-    $DominioUPN = Read-Host "  🌐 Dominio UPN (ej: info-df.org.mx)"
+    $DominioUPN = Read-Host "  🌐 Dominio UPN (ej: empresa.dominio.com)"
 }
 
 Write-Log "Excel entrada : $ExcelEntrada"  -L INFO
